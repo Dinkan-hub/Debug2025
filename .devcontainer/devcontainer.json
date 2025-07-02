@@ -1,0 +1,16 @@
+{
+  "name": "Loto Debug Env",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "workspaceFolder": "/workspace",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": [
+    "ms-python.python"
+  ],
+  "forwardPorts": [8888],
+  "postCreateCommand": "pip install --upgrade pip"
+}
