@@ -2,7 +2,7 @@
   "name": "Loto Debug Env",
   "build": {
     "dockerfile": "Dockerfile",
-    "context": ".."
+    "context": "."
   },
   "workspaceFolder": "/workspace",
   "settings": {
