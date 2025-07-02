@@ -31,3 +31,4 @@ WORKDIR /workspace
 
 # 6) Commande par défaut
 CMD ["bash"]
+
